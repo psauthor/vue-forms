@@ -1,0 +1,40 @@
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width: 768px) {
+  nav .navbar-nav .nav-item {
+    padding: 15px;
+  }
+
+  nav .navbar-nav .nav-item:hover {
+    background-color: #666;
+  }
+}
+
+footer a {
+  color: #aaa;
+  font-variant: small-caps; 
+}
+
+footer a:hover {
+  color: #aaa;
+  font-variant: small-caps; 
+  text-decoration: none;
+}
+
+footer .list-header {
+  text-transform: uppercase;
+}
+
+.navbar .navbar-brand img {
+  max-height: 75px;
+} 
+
+.user-block img {
+  border-radius: 100px;
+  max-height: 85px;
+  border: #ccc solid 2px;
+  margin: 3px;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>GloboTicket</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="site.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- NAVIGATION -->
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark d-flex flex-row">
+      <a class="navbar-brand" href="#"><img src="/img/_Export_globoticket-horizontal-white.png" alt="Globoticket"
+          class="img-fluid"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex-row user-block p-1 text-light d-none d-md-flex">
+        <div class="d-flex flex-column justify-content-center text-right">
+          <div>Shawn Wildermuth</div>
+          <div><a href="#">Logout</a></div>
+        </div>
+        <div class="p-1">
+          <img src="img/shawn-head-2016-square-200.jpg" class="img-fluid" />
+        </div>
+      </div>
+    </nav>
+
+    <!-- STORIES -->
+    <div class="container">
+      <noscript>
+        <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+          Please enable it to continue.</strong>
+      </noscript>
+      <div id="app"></div>
+      <!-- built files will be auto injected -->
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="container-fluid bg-dark">
+      <div class="container">
+        <div class="d-md-flex justify-content-between flex-sm-column flex-lg-row">
+          <div>
+            <div class="list-header text-light mb-2">Customer Support</div>
+            <ul class="list-unstyled">
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Order Tracker</a></li>
+              <li><a href="#">Returns &amp; Refunds</a></li>
+              <li><a href="#">Size Guide</a></li>
+              <li><a href="#">Store Locator</a></li>
+              <li><a href="#">Site Map</a></li>
+            </ul>
+          </div>
+          <div>
+            <div class="list-header text-light mb-2">Company Info</div>
+            <ul class="list-unstyled">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Sustainability</a></li>
+              <li><a href="#">Affiliates</a></li>
+              <li><a href="#">Students</a></li>
+              <li><a href="#">Mobile Apps</a></li>
+            </ul>
+          </div>
+          <div class="crf-footer--links">
+            <div class="list-header text-light mb-2">Privacy &amp; Terms</div>
+            <ul class="list-unstyled">
+              <li><a href="#">Privacy &amp; Security</a></li>
+              <li><a href="#">Statement</a></li>
+              <li><a href="#">Terms &amp; Conditions</a></li>
+            </ul>
+          </div>
+          <div>
+            <div class="list-header text-light mb-2 d-lg-block  d-none">Follow Us</div>
+            <ul class="d-lg-block d-none d-sm-none list-inline">
+              <li class="list-inline-item"><a href="#">
+                <i class="fab fa-2x fa-twitter"></i>
+              </a></li>
+              <li class="list-inline-item"><a href="#">
+                <i class="fab fa-2x fa-facebook"></i>
+              </a></li>
+              <li class="list-inline-item"><a href="#">
+                <i class="fab fa-2x fa-pinterest"></i>
+              </a></li>
+              <li class="list-inline-item"><a href="#">
+                <i class="fab fa-2x fa-instagram"></i>
+              </a></li>
+            </ul>
+            <div class="text-light text-center">
+              <div class="">Email Updates</div>
+              <div class="">Exclusive sales, special offers, and more.</div>
+              <div class="row">
+                <input type="text" class="form-control col-12 col-lg-8" placeholder="Enter email address" />
+                <div class="offset-col-4 col-lg-4 pl-md-1">
+                  <button class="btn btn-secondary">Sign up</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="d-block d-lg-none text-center">
+            <div class="text-light">Follow Us</div>
+            <ul class="list-unstyled">
+              <li class="list-inline-item"><a href="#">
+                  <i class="fab fa-2x fa-twitter"></i>
+                </a></li>
+              <li class="list-inline-item"><a href="#">
+                <i class="fab fa-2x fa-facebook"></i>
+              </a></li>
+              <li class="list-inline-item"><a href="#">
+                <i class="fab fa-2x fa-pinterest"></i>
+              </a></li>
+              <li class="list-inline-item"><a href="#">
+                <i class="fab fa-2x fa-instagram"></i>
+              </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <img src="/img/pluralsight-white.png" alt="Pluralsight Logo" class="img-fluid w-25" />
+        <div class="text-light">This site is created for demonstrative purposes only and does not offer any real
+          products or services.
+        </div>
+      </div>
+      <div class="text-light text-center mt-3">@Pluralsight 2018-2020</div>
+    </footer>
+
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</html>
