@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply text-3xl;
+  }
+
+  h2 {
+    @apply text-2xl;
+  }
+
+  h3 {
+    @apply text-xl;
+  }
+
+  h4 {
+    @apply text-lg;
+  }
+
+  label,
+  input {
+    @apply block font-bold;
+  }
+
+  input:not([type="checkbox"]),
+  textarea,
+  select {
+    @apply border 
+    rounded w-full 
+    placeholder-gray-300 
+    p-1 
+    outline-none 
+    text-lg 
+    font-normal 
+    focus:ring 
+    focus:ring-blue-400
+    my-1;
+  }
+
+  button[type="button"],
+  [type="reset"],
+  [type="submit"] {
+    @apply border rounded-lg p-3 my-1 bg-gray-800 text-white;
+  }
+
+  form {
+    @apply max-w-lg;
+  }
+}
