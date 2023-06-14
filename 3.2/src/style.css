@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer utilities {
+
   h1,
   h2,
   h3,
@@ -34,16 +35,7 @@
   input:not([type="checkbox"]),
   textarea,
   select {
-    @apply border 
-    rounded w-full 
-    placeholder-gray-300 
-    p-1 
-    outline-none 
-    text-lg 
-    font-normal 
-    focus:ring 
-    focus:ring-blue-400
-    my-1;
+    @apply border rounded w-full placeholder-gray-300 p-1 outline-none text-lg font-normal focus: ring focus:ring-blue-400 my-1;
   }
 
   button[type="button"],
@@ -52,7 +44,4 @@
     @apply border rounded-lg p-3 my-1 bg-gray-800 text-white;
   }
 
-  form {
-    @apply max-w-lg;
-  }
 }
