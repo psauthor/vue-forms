@@ -35,13 +35,12 @@
   input:not([type="checkbox"]),
   textarea,
   select {
-    @apply border rounded w-full placeholder-gray-300 p-1 outline-none text-lg font-normal focus: ring focus:ring-blue-400 my-1;
+    @apply border rounded w-full placeholder-gray-300 p-1 outline-none text-lg font-normal focus:ring focus:ring-blue-400 my-1;
   }
 
   button[type="button"],
   [type="reset"],
   [type="submit"] {
-    @apply border rounded-lg p-3 my-1 bg-gray-800 text-white;
+    @apply border rounded-lg p-3 my-1 bg-gray-800 text-white disabled:bg-gray-600 disabled:text-gray-300 hover:bg-gray-700;
   }
-
 }
